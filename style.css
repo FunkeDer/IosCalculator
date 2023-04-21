@@ -1,0 +1,104 @@
+*{
+    font-family:"helvetica";
+    margin: 0 ;
+    padding: 0;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 500px;
+    height: 100vh;
+    margin: 0 auto;
+}
+
+.characters-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 296px;
+    background: #1C1C1C;
+    min-width: 375px;
+    border-radius: 50px;
+    padding: 50px 0;
+}
+
+.buttons-container{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    align-items: center;
+    justify-content: center;
+}
+
+.result-container{
+    display: flex;
+    color: white;
+    font-size: 70px;
+    align-items: flex-end;
+    justify-content: flex-end;
+    width: 296px;
+    margin-right: 50px;
+}
+
+button{
+    border-radius: 50%;
+    border: none;
+    background-color: #505050;
+    color: white;
+    line-height: 70px;
+    width: 70px;
+    margin: 5px;
+    font-weight: light;
+    font-size: 35px;
+    cursor: pointer;
+}
+
+.clear-button{
+    background-color: #D4D4D2;
+    color: #1C1C1C;
+}
+
+.sign-button{
+        background-color: #D4D4D2;
+    color: #1C1C1C;
+}
+
+.percent-button{
+    background-color: #D4D4D2;
+    color: #1C1C1C;
+}
+
+.divide-button{
+    background-color: #FF9500;
+    color: white;
+}
+
+.multiply-button{
+color: white;
+    background-color: #FF9500;
+}
+
+.minus-button{
+color: white;
+    background-color: #FF9500;
+}
+
+.plus-button{
+ color: white;
+    background-color: #FF9500;
+}
+
+.equel-button{
+    color: white; 
+    background-color: #FF9500;
+}
+
+.null-button{
+    width: 150px;
+    border-radius: 50px;
+    grid-column: span 2;
+    text-align: left;
+    padding-left: 25px;
+}
